@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Models / caches
+.cache/
+.huggingface/
+huggingface/
+models/
+checkpoints/
+
+# Media and generated data
+data/clips/
+data/references/
+data/outputs/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+
+# Temporary files
+*.tmp
+*.temp
